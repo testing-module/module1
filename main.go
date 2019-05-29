@@ -1,9 +1,9 @@
 package main
 
 import (
-	mtools1 "github.com/testing-module/module1/tools"
+	"github.com/testing-module/module1/pkg/tools"
 )
 
 func main() {
-	m1t.Tool(mtools1.Tool(""))
+	tools.Tool(tools.ToolVar("module 1"))
 }
